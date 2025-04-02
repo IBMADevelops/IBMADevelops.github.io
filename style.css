@@ -1,3 +1,29 @@
 .title{
     color: darkred;
 }
+
+.grid-container{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:
+        "header"
+        "buttons"
+}
+
+.grid-item{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.header{
+    grid-area: header;
+    background-color: black;
+}
+
+.buttons{
+    display: flex;
+    grid-area: buttons;
+    background-color: dodgerblue;
+    justify-content: space-evenly;
+}
