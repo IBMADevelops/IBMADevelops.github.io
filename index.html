@@ -8,12 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1 class="title">Sistema de Gestión Escolar</h1>
-    </header>
+    <div class="grid-container">
+	    <header class="grid-item header">
+        	<h1 class="title">Sistema de Gestión Escolar</h1>
+    	</header>
 	
-	<p>El siguiente botón lleva al enlace de descarga</p>
-	<button onclick="location.href='https://IBMADevelops.github.io/Sistema/Universidad_Lova_Setup.msi'">Descarga el Sistema GES</button>
+		<section class="grid-item buttons">
+			<p>Descarga la versión más reciente para Windows (x64)</p>
+			<button onclick="location.href='https://IBMADevelops.github.io/Sistema/Universidad_Lova_Setup.msi'">Última versión</button>
+
+			<p>Descarga la versión estable para Windows (x64)</p>
+			<button onclick="location.href='https://IBMADevelops.github.io/Sistema/Universidad_Lova_Setup.msi'">Versión estable</button>
+		</section>
+	</div>
 
 </body>
 </html>
