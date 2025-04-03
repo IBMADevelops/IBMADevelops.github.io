@@ -47,3 +47,12 @@ button {
     border: solid 2px black;
     border-radius: 7px;
 }
+
+.no-underline{
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: inherit;
+}
