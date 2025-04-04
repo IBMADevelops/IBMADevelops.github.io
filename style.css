@@ -56,6 +56,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .item {
@@ -64,6 +65,7 @@ h1 {
     align-items: center;
     justify-content: center;
     column-gap: 25px;
+    position: relative;
 }
 
 button {
@@ -73,11 +75,17 @@ button {
     border-radius: 7px;
 }
 
-.no-underline {
-    text-decoration: none;
+details{
+    display: flex;
 }
 
-.underline {
-    text-decoration: underline;
-    text-decoration-color: inherit;
+.popup-summary{
+    position: absolute;
+    right: 100;
+    top: 85%;
+    z-index: 10;
+    background-color: white;
+    border: 1px solid #ccc;
+    min-width: 290px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
