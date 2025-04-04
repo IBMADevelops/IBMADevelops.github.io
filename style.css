@@ -81,9 +81,8 @@ details{
 
 .popup-summary{
     position: absolute;
-    right: 100;
-    top: 85%;
     z-index: 10;
+    margin-left: 1%;
     background-color: white;
     border: 1px solid #ccc;
     min-width: 290px;
