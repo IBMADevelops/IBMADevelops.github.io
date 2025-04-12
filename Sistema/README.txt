@@ -2,10 +2,9 @@ ARCHIVO .config
 
 La siguiente ruta es donde suele estar almacenado el usuario, la contraseña y la información de inicio de sesión al servidor de MySQL:
 
-C:\Users\[su usuario]\AppData\Local\VirtualStore\Program Files\IBMA\Universidad Lova Gestión Escolar
+C:\Users\[su usuario]\AppData\Roaming\IBMA\app.config
 
-En caso de no estar ahí, puede realizar la búsqueda del archivo "Universidad Lova.exe.config", NO abra el que se encuentra en la carpeta de instalación "Universidad Lova Gestión Escolar", dado que ese mantiene los valores predeterminados. NO debe mover ese archivo a otra ruta, al momento de instalarse se crea esa ruta y el sistema accede a ella.
-
+NO abra el que se encuentra en la carpeta de instalación "Universidad Lova", dado que ese mantiene los valores predeterminados. NO debe mover ningún archivo a otra ruta, al momento de instalarse se crean esas rutas y el sistema accede a ellas.
 
 
 
@@ -24,9 +23,12 @@ Con el bloc de notas abra el archivo "Universidad Lova.exe.config" (dar click de
     <add key="Username" value="Diego" />
     <add key="Password" value="prueba" />
     <add key="ClientSettingsProvider.ServiceUri" value="" />
+    <add key="RutaSeleccionada" value="" />
   </appSettings>
 
 Al momento de realizar cambios, se verán reflejados aquí, los más evidentes son Username y Password, en <appSettings>, estos son para el acceso al sistema.
+
+La "RutaSeleccionada" sirve para almacenar la ubicación donde se guardarán los tickets generados.
 
 Por otro lado, en <connectionString>, en el apartado con el mismo nombre dentro de <add> se encuentra la base de datos (Database), el servidor (Datasource), el usuario (UserId) y la contraseña (Password).
 
@@ -34,7 +36,7 @@ Por otro lado, en <connectionString>, en el apartado con el mismo nombre dentro 
 -----------------------------------------------------------------------
 
 
-COPIPAS DE SEGURIDAD MySQL
+COPIPAS DE SEGURIDAD MySQL (NO DISPONIBLE ACTUALMENTE)
 
 El sistema tiene la capacidad de crear copias de seguridad manualmente al momento de acceder al módulo correspondiente. La ruta para visualizar las copias es la siguiente:
 
