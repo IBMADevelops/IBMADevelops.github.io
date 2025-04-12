@@ -4,7 +4,7 @@ La siguiente ruta es donde suele estar almacenado el usuario, la contraseña y l
 
 C:\Users\[su usuario]\AppData\Roaming\IBMA\app.config
 
-NO abra el que se encuentra en la carpeta de instalación "Universidad Lova", dado que ese mantiene los valores predeterminados. NO debe mover ningún archivo a otra ruta, al momento de instalarse se crean esas rutas y el sistema accede a ellas.
+NO abra el archivo "Universidad Lova.exe.config" que se encuentra en la carpeta de instalación "Universidad Lova", dado que ese mantiene los valores predeterminados del sistema, no los actualizados. NO debe mover ningún archivo a otra ruta, al momento de instalarse se crean esas rutas y el sistema accede a ellas.
 
 
 
